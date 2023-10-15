@@ -1,5 +1,11 @@
+import Body from "./components/Body";
+
 function App() {
-  return <div className="text-lg font-bold from-orange-400">Namate</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 }
 
 export default App;
